@@ -19,11 +19,10 @@ public class Link {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String urlLong;
+    private String urlLonga;
     private String urlEncurtada;
     private String urlQrCode;
     private LocalDateTime UrlCriadaEm;
 
 
 
-}
